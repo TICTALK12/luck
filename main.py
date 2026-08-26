@@ -114,7 +114,7 @@ mbti_data = {
 }
 
 # 4. 헤더 영역 (화려한 이모지 폭탄)
-st.markdown("<h1 class='main-title'>🌈✨ MBTI 드림 캐치! ✨🌈</h1>", unsafe_unsafe_html=True)
+st.markdown("<h1 class='main-title'>🌈✨ MBTI 드림 캐치! ✨🌈</h1>", unsafe_allow_html=True)
 st.markdown("<h3 style='text-align: center; color: #4A5568;'>🔮 나만의 성격 유형에 딱 맞는 찰떡 직업을 찾아봐요! 🚀</h3>", unsafe_allow_html=True)
 st.write("")
 
